@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GoSkate</string>
+    <string name="user_name">NAME</string>
+    <string name="user_email">EMAIL</string>
+    <string name="user_pasword">PASSWORD</string>
+    <string name="user_comfirm_pasword">COMFIRMAR PASSWORD</string>
+    <string name="user_age">EDAD</string>
+    <string name="new_acount">¿AUN NO TIENES UNA CUENTA?</string>
+</resources>
