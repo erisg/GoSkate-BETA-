@@ -8,11 +8,11 @@
         tools:context=".View.MainActivity"
         android:background="#fff">
 
-
-    <android.support.design.widget.BottomNavigationView
+    <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginBottom="0dp"
-            android:layout_marginTop="665dp" android:layout_alignParentTop="true" android:background="#009688"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
             app:menu="@menu/button_navigation"
-            android:id="@+id/nav_go"/>
+            android:layout_marginBottom="0dp" android:layout_alignParentStart="true" android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp" android:layout_alignParentLeft="true" android:background="#009688"
+            android:id="@+id/bottom_nav"/>
 </RelativeLayout>

@@ -6,4 +6,10 @@
     <string name="user_comfirm_pasword">COMFIRMAR PASSWORD</string>
     <string name="user_age">EDAD</string>
     <string name="new_acount">¿AUN NO TIENES UNA CUENTA?</string>
+    <string name="Inicio">Home</string>
+    <string name="Map">Map</string>
+    <string name="new_spot">New</string>
+    <string name="shop">Shop</string>
+    <string name="new_spot_map">New Spot</string>
+    <string name="title_activity_maps_go_skate">Map</string>
 </resources>
