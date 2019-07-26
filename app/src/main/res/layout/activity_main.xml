@@ -15,4 +15,14 @@
             android:layout_marginBottom="0dp" android:layout_alignParentStart="true" android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp" android:layout_alignParentLeft="true" android:background="#009688"
             android:id="@+id/bottom_nav"/>
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize" android:id="@+id/toolbarHome" android:gravity="center"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="619dp" android:layout_marginTop="-1dp" android:layout_below="@+id/toolbarHome"
+            android:layout_above="@+id/bottom_nav" android:layout_marginBottom="1dp"/>
 </RelativeLayout>

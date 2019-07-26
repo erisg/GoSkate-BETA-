@@ -5,21 +5,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".View.newSpotActivity">
+        tools:context=".View.newSpotActivity" android:background="@drawable/fondoo">
 
-    <ScrollView
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:background="#fff" android:id="@+id/scroll_newspot">
-
-        <LinearLayout
-
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:orientation="vertical"/>
-
-    </ScrollView>
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:menu="@menu/button_navigation"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/bottom_nav"
+            android:background="@color/colorPrimaryDark"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
