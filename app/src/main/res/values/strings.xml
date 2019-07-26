@@ -12,4 +12,7 @@
     <string name="shop">Shop</string>
     <string name="new_spot_map">New Spot</string>
     <string name="title_activity_maps_go_skate">Map</string>
+    <string name="spot_type">Tipo de Spot</string>
+    <string name="truco_post">TRUCO</string>
+    <string name="rider_post">RIDER</string>
 </resources>

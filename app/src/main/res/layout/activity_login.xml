@@ -47,7 +47,7 @@
                     android:layout_marginEnd="60dp" android:layout_marginRight="60dp"
                     app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="59dp"
                     android:layout_marginStart="59dp" android:hint="@string/user_email"
-                    android:textColorHint="@color/cardview_dark_background"
+                    android:textColorHint="@color/common_google_signin_btn_text_dark_disabled"
                     app:layout_constraintHorizontal_bias="0.487" android:layout_marginTop="24dp"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3"/>
 
@@ -62,7 +62,7 @@
                     android:layout_marginEnd="60dp" android:layout_marginRight="60dp"
                     app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="59dp"
                     android:layout_marginStart="59dp" android:hint="@string/user_pasword"
-                    android:textColorHint="@color/cardview_dark_background"
+                    android:textColorHint="@color/common_google_signin_btn_text_dark_disabled"
                     app:layout_constraintHorizontal_bias="0.487"/>
             <Button
                     android:layout_width="143dp"
@@ -73,16 +73,18 @@
                     android:layout_marginLeft="123dp" android:layout_marginStart="123dp"
                     android:background="@drawable/ingresar"
                     app:layout_constraintHorizontal_bias="0.494"
-                    app:layout_constraintTop_toBottomOf="@+id/password_login" android:layout_marginTop="32dp"/>
+                    app:layout_constraintTop_toBottomOf="@+id/password_login" android:layout_marginTop="32dp"
+                    android:layout_marginBottom="2dp" app:layout_constraintBottom_toTopOf="@+id/noAcount_button"/>
             <Button
                     android:layout_width="143dp"
                     android:layout_height="49dp"
-                    android:id="@+id/noAcount_button" android:layout_marginEnd="102dp" android:layout_marginRight="102dp"
+                    android:id="@+id/noAcount_button" android:layout_marginEnd="102dp"
+                    android:layout_marginRight="102dp"
                     app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="123dp" android:layout_marginStart="123dp" android:layout_marginTop="20dp"
+                    android:layout_marginLeft="123dp" android:layout_marginStart="123dp" android:layout_marginTop="2dp"
                     app:layout_constraintTop_toBottomOf="@+id/login_button" android:layout_marginBottom="41dp"
                     app:layout_constraintBottom_toBottomOf="parent" android:background="@drawable/registrobuton"
-                    app:layout_constraintHorizontal_bias="0.636" app:layout_constraintVertical_bias="1.0"/>
+                    app:layout_constraintHorizontal_bias="0.636" app:layout_constraintVertical_bias="0.0"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
