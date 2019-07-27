@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="skate.bogota.goskate">
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -16,12 +17,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".View.galeryActivity">
-        </activity>
-        <activity android:name=".View.newSpotActivity">
-        </activity>
-        <activity android:name=".View.shopActivity">
-        </activity>
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -38,6 +34,20 @@
                 android:name=".View.MapsGoSkate"
                 android:label="@string/title_activity_maps_go_skate">
         </activity>
+        <activity android:name=".View.galeryActivity">
+        </activity>
+        <activity android:name=".View.newSpotActivity">
+        </activity>
+        <activity android:name=".View.shopActivity">
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
         <activity android:name=".View.loginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

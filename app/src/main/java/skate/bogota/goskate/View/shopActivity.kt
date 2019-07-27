@@ -32,8 +32,7 @@ class shopActivity : AppCompatActivity() {
 
 
                 R.id.shop_btn -> {
-                    val shop = Intent(this, shopActivity::class.java)
-                    startActivity(shop)
+
                 }
 
                 R.id.new_spot_btn -> {

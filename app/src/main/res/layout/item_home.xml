@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".View.galeryActivity" android:background="#fff">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="376dp"
+            android:layout_height="547dp"
+            app:cardElevation="4dp" android:layout_margin="10dp"
+            app:cardCornerRadius="25dp" app:cardBackgroundColor="@color/colorCard" tools:layout_editor_absoluteX="22dp"
+            tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+                android:layout_width="371dp"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="179dp" app:srcCompat="@drawable/logooooo" android:id="@+id/imageView2"
+                    android:layout_marginTop="31dp" android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_alignParentLeft="true" android:layout_above="@+id/parchePost"
+                    android:layout_marginBottom="-43dp"/>
+            <TextView
+                    android:text="@string/rider_post"
+                    android:layout_width="216dp"
+                    android:layout_height="29dp" android:id="@+id/rider_post" android:layout_toEndOf="@+id/imageView2"
+                    android:layout_toRightOf="@+id/imageView2" android:layout_marginLeft="18dp"
+                    android:layout_marginStart="18dp" android:layout_alignParentEnd="true"
+                    android:background="@drawable/edit_auth"
+                    android:layout_alignParentRight="true" android:layout_marginRight="40dp"
+                    android:layout_marginEnd="40dp" android:layout_marginTop="42dp"
+                    android:layout_alignParentTop="true"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="288dp"
+                    android:layout_height="34dp" android:id="@+id/parchePost" android:layout_alignParentStart="true"
+                    android:layout_marginLeft="53dp" android:layout_marginStart="53dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+                    android:layout_marginRight="51dp" android:layout_marginEnd="51dp"
+                    android:layout_marginTop="72dp" android:layout_below="@+id/rider_post"/>
+            <ImageView
+                    android:layout_width="283dp"
+                    android:layout_height="234dp" app:srcCompat="@mipmap/ic_launcher_round"
+                    android:id="@+id/photoPost" android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="26dp" android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" android:layout_marginRight="54dp"
+                    android:layout_marginEnd="54dp" android:layout_alignParentStart="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp" android:layout_alignParentLeft="true"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="288dp"
+                    android:layout_height="41dp" android:id="@+id/truco_post" android:layout_above="@+id/photoPost"
+                    android:layout_marginBottom="53dp" android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" android:layout_marginRight="51dp"
+                    android:layout_marginEnd="51dp" android:layout_marginTop="26dp"
+                    android:layout_below="@+id/parchePost"
+                    android:layout_alignParentStart="true" android:layout_marginLeft="53dp"
+                    android:layout_marginStart="53dp" android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
