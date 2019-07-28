@@ -20,37 +20,37 @@ class MainActivity : AppCompatActivity() {
 
         toolbarHome.setTitle(R.string.app_name)
         toolbarHome.setTitleTextColor(R.color.colorBlanco)
-
-        bottom_nav.setOnNavigationItemSelectedListener { item ->
-
-            when (item.itemId) {
-                R.id.nav_home_btn -> {
-
-                }
-
-                R.id.cam_btn -> {
-                    val galery = Intent(this, galeryActivity::class.java)
-                    startActivity(galery)
-                }
-
-                R.id.nav_map_btn -> {
-                    val map = Intent(this, MapsGoSkate::class.java)
-                    startActivity(map)
-                }
-
-                R.id.shop_btn -> {
-                    val shop = Intent(this, shopActivity::class.java)
-                    startActivity(shop)
-                }
-
-                R.id.new_spot_btn -> {
-                    val spot = Intent(this, newSpotActivity::class.java)
-                    startActivity(spot)
-                }
-            }
-
-            true
-        }
+//
+//        bottom_nav.setOnNavigationItemSelectedListener { item ->
+//
+//            when (item.itemId) {
+//                R.id.nav_home_btn -> {
+//
+//                }
+//
+//                R.id.cam_btn -> {
+//                    val galery = Intent(this, galeryActivity::class.java)
+//                    startActivity(galery)
+//                }
+//
+//                R.id.nav_map_btn -> {
+//                    val map = Intent(this, MapsGoSkate::class.java)
+//                    startActivity(map)
+//                }
+//
+//                R.id.shop_btn -> {
+//                    val shop = Intent(this, shopActivity::class.java)
+//                    startActivity(shop)
+//                }
+//
+//                R.id.new_spot_btn -> {
+//                    val spot = Intent(this, newSpotActivity::class.java)
+//                    startActivity(spot)
+//                }
+//            }
+//
+//            true
+//        }
 
     }
 

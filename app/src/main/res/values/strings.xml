@@ -15,4 +15,5 @@
     <string name="spot_type">Tipo de Spot</string>
     <string name="truco_post">TRUCO</string>
     <string name="rider_post">RIDER</string>
+    <string name="exit_app">Exit</string>
 </resources>

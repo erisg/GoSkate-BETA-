@@ -26,4 +26,10 @@
             android:title="@string/new_spot_map"
             android:icon="@drawable/ic_action_new"/>
 
+    <item
+            android:id="@+id/logout_btn"
+            android:title="@string/exit_app"
+            android:icon="@drawable/ic_action_exit"/>
+
+
 </menu>
