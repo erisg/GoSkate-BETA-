@@ -6,6 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_login.login_button
 import kotlinx.android.synthetic.main.activity_login.login_email
+import kotlinx.android.synthetic.main.activity_main.*
 import skate.bogota.goskate.R
 
 class loginActivity : AppCompatActivity() {
@@ -39,6 +40,7 @@ class loginActivity : AppCompatActivity() {
             val login = Intent(this, MainActivity::class.java)
             startActivity(login)
         }
+
 
     }
 
