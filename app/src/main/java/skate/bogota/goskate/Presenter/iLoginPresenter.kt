@@ -1,4 +1,4 @@
 package skate.bogota.goskate.Presenter
 
-class loginPresenter {
+interface iLoginPresenter {
 }
